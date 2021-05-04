@@ -1,0 +1,84 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/open-sans-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/open-sans-v18-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v18-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer{
+  background: #000;
+  font-family: 'Open Sans';
+  color:#fff;
+  padding: 130px 0 40px 0;
+}
+.footer-col{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+   
+}
+.footer-col__logo{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 55px 0;
+  
+}
+.footer-col__social{
+  position: relative;
+  
+}
+.social-title{
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+}
+.social-title::after{
+  content: '';
+  display: block;
+  height: 1px;
+  width: 230px;
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+
+}
+.social__items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.social__items>li{
+  list-style: none;
+  
+}
+.social__item {
+  display: flex;
+  text-decoration: none;
+  padding: 50px 18px 90px 18px;
+  
+}
+.title__item{
+  color:#1abeec;
+  font-weight: 600;
+}
